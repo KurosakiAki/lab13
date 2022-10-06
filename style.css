@@ -1,0 +1,45 @@
+
+body::before{
+    content: '';
+    display: block;
+    height: 8px;
+}
+
+/* Carousel */
+.carousel-item{
+    display: none;
+} 
+
+.carousel-item .active{
+    display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    border: none;
+    background-color: transparent;
+}
+
+.bg-img-1{
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    background-size: cover;
+    background-image: url("/imgs/img1.png");
+}
+
+.bg-img-2{
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    background-size: cover;
+    background-image: url("/imgs/img2.png");
+}
+
+.bg-img-3{
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    background-size: cover;
+    background-image: url("/imgs/img3.png");
+}
